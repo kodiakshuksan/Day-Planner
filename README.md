@@ -6,8 +6,11 @@ by Jenny Detmering
 ## Installation 
 
 ## Deployment
+<a href= "https://kodiakshuksan.github.io/Day-Planner">
 
 ## Picture of Project
+
+<img src="DayPlanner.PNG">
 
 ## Technologies
 
@@ -17,6 +20,7 @@ by Jenny Detmering
 1/26/2021-outlining on paper my approach to the solution. I am looking to start
 with the smallest hard thing first. 
 1/27/2021-wrote the JavaScript rough draft.
+1/28/2021-added date and hour working on buttons and color coding.
 
 
 ## Contributors

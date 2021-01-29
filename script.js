@@ -1,39 +1,37 @@
 //Javascript
-
+console.log("hello")
 //Display Date
-//var today = luxon.DateTime.local();
-//luxon.DateTime.local() = document.getElementById(currentDay);
-//currentDay.innerHTML = luxon.DateTime; 
+var today = luxon.DateTime.local();
+var nowhour = today.c.hour
+console.log(today.c.hour)
+console.log(today)
+var hour = today.c.hour;
+console.log(hour)
+
+
+var d = new Date();
+console.log(d)
+currentDay.innerHTML = d; 
+console.log(currentDay)
 
 
 // Display Hour - need to make this match up to current time somehow with Luxon
-//#1
-//var nowhour = luxon.hour
-//document.getElementbyClassName("hour")
-//hour.innerHTML = document.write(nowhour)
+console.log(hour)
+hour.innerHTML = hour;
 
-//#2
-//var hourblock = ["9", "10", "11", "12", "1", "2", "3", "4", "5"];
-//var hourlabel = document.getElementsByClassName(hour);
-//hour.innterHTML = function showBlockHour(); (loop through array to display hour in class hour spot)
-//variables maybe need to go into the function
-//function showHourBlockHour() = {
-//     for (i=o; i < 8, i++);
-//     hour.innerHTML = document.write(hourblock());
-// };
- // might need to use this in array instead // var currenthour = luxon.DateTime.local();
 
 
 //click on hour block button
 //alert to form input reads info on how to save appointment in time block
 //user clicks save or submit button and hour block is updated with users new info
-// function makeEvent() = {
-//   var event = document.getElementsByClassName(textarea);
-//   console.log(event)
-//   event.push("text area");
-//   document.getElementById("usersEvent").innerHTML = event;
-// };
+function makeEvent() {
+  var event = document.getElementsByClassName(textarea);
+  console.log(event)
+  event.push("text area");
+  document.getElementById("usersEvent").innerHTML = event;
+};
  
+makeEvent()
 
 // button brings up text area for user to make and save event
 //iterate over hour block array adding this to each value
