@@ -20,18 +20,55 @@ console.log(hour)
 hour.innerHTML = hour;
 
 
+function myFunction() {
+    var x = document.createElement("TEXTAREA");
+    var t = document.createTextNode("Enter Appointment Info:");
+    x.appendChild(t);
+    document.body.appendChild(x);
+  }
+ 
+
+
+
+
+
+
+
+
+
+// function makeEvent() {
+//   var txt;
+//   var person = prompt("Please enter event info:");
+//   if (person == null || person == "") {
+//     txt = "User cancelled the prompt.";
+//   } else {
+//     txt = person;
+//   }
+//   document.getElementById("appt").innerHTML = txt;
+// };
+
+
+
+
+
+// var make = document.getElementById("button");
+// var event = document.getElementById("userEvent");
+// var appt = document.getElementBy  
+
+
+
 
 //click on hour block button
 //alert to form input reads info on how to save appointment in time block
 //user clicks save or submit button and hour block is updated with users new info
-function makeEvent() {
-  var event = document.getElementsByClassName(textarea);
-  console.log(event)
-  event.push("text area");
-  document.getElementById("usersEvent").innerHTML = event;
-};
+// function makeEvent() {
+//   var event = document.getElementsByClassName("textarea");
+//   console.log(event)
+//   event.push("text area");
+//   document.getElementById("usersEvent").innerHTML = event;
+// };
  
-makeEvent()
+// makeEvent()
 
 // button brings up text area for user to make and save event
 //iterate over hour block array adding this to each value

@@ -6,11 +6,12 @@ by Jenny Detmering
 ## Installation 
 
 ## Deployment
-<a href= "https://kodiakshuksan.github.io/Day-Planner">
+
+<"https://kodiakshuksan.github.io/Day-Planner">
 
 ## Picture of Project
 
-<img src="DayPlanner.PNG">
+<img src="assets/DayPlanner.PNG" alt="picture of day planner" />
 
 ## Technologies
 
